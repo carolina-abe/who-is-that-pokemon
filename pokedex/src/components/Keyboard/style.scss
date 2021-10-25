@@ -1,0 +1,64 @@
+.keyboard-container {
+  background-color: #fff;
+  width: 80%;
+  padding: 0.5rem 1rem;
+  margin: auto;
+  display: grid;
+  border-radius: 40px;
+  
+
+  .keyboard-button {
+    margin: auto;
+    display: flex;
+    align-items: center;
+
+    img {
+      position: absolute;
+      width: 40px;
+    }
+    position: relative;
+    letter-spacing: 0.36em;
+
+    button {
+      background-color: transparent;
+      outline: none;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: none;
+      font-size: 3rem;
+      color: var(--blue-800);
+      max-width: 60px;
+      cursor: pointer;
+    }
+  }
+
+  .button-chances {
+    width: 50px !important;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #f0f0f3 !important;
+    margin-left: 40px;
+
+    img {
+      width: 30px;
+      height: 30px;
+    }
+
+    .chances {
+      background-color: var(--blue-800);
+      width: 15px;
+      height: 15px;
+      border-radius: 50px;
+      position: absolute;
+      right: 5px;
+      bottom: 5px;
+
+      p {
+        font-size: 10px;
+        color: var(--yellow);
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+.shadow-pokemon {
+  filter: drop-shadow(-40px 0 200px #fff);
+
+  img {
+    width: 270px;
+    filter: brightness(0);
+  }
+
+  &.active {
+    img {
+      filter: none;
+    }
+  }
+}

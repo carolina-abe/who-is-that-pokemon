@@ -1,0 +1,25 @@
+.name-letter-container {
+  margin: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  input {
+    width: 50px;
+    height: 60px;
+    border-radius: 4px;
+    border: none;
+    font-size: 36px;
+    text-align: center;
+    color: var(--blue-800);
+    margin-left: 15px;
+
+    &:disabled {
+      background-color: #fff;
+    }
+
+    &.is-empty {
+      background-color: #8fa3d3;
+    }
+  }
+}

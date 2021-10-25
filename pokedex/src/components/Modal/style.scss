@@ -1,0 +1,60 @@
+.modal-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(4, 18, 88, 0.4);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  &.modal-open {
+    display: flex;
+  }
+
+  .modal-container {
+   // background-image: url("../../assets/images/bg.png");
+    background-color: #fff;
+    width: 300px;
+    min-height: 400px;
+    position: relative;
+    z-index: 2;
+    border-radius: 20px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .modal-close {
+    border: 0;
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    font-size: 18px;
+    position: absolute;
+    right: -15px;
+    top: -15px;
+    cursor: pointer;
+  }
+
+  p,
+  h1 {
+    color: var(--blue-800);
+    font-weight: 600;
+  }
+
+  h1 {
+    font-size: 30px;
+    margin-top: 0.1rem;
+  }
+
+  p {
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+}
