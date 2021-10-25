@@ -1,13 +1,18 @@
 .button-try-again {
   background-color: var(--red);
-
   border: none;
   border-radius: 100px;
-
   padding: 10px 30px;
-
   margin-top: 2rem;
   color: #fff;
-
   cursor: pointer;
+}
+
+img{
+  width:auto;
+  height: auto;
+}
+
+button{
+  font-size: 20px;
 }

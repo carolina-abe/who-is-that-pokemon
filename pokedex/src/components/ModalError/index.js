@@ -1,7 +1,7 @@
 import { Modal } from "../Modal";
 import "./style.scss";
 
-import IconQuestion from "../../assets/images/icon-question.png";
+import IconQuestion from "../../assets/images/game-over-icon.png";
 
 export function ModalError({ open, onClickTryAgain, onClickClose }) {
   return (

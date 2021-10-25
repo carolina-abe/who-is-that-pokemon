@@ -54,7 +54,7 @@ export function Keyboard({
             </button>
           ))}
         <button className="button-chances" onClick={onClickChances}>
-          <img src={IconPokeball} alt="Chances" />
+          <img src={IconPokeball} alt="Chances" id="pokeball"/>
           <div className="chances">
             <p>{chances}</p>
           </div>

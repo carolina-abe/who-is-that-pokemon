@@ -39,13 +39,16 @@
     height: 50px;
     border-radius: 5px;
     background-color: #f0f0f3 !important;
-    margin-left: 40px;
+    margin-left: 5px;
 
     img {
       width: 30px;
       height: 30px;
     }
+    img#pokeball{
+      position: relative;
 
+    }
     .chances {
       background-color: var(--blue-800);
       width: 15px;
