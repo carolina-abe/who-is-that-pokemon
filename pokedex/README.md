@@ -1,4 +1,4 @@
-# Who is that Pkemon?
+# Who is that Pokemon?
 
 This game was developed with the intention of studying and applying the React and SASS technology.
 
