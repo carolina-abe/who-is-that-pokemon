@@ -1,6 +1,6 @@
 # Who is that Pokemon?
 
-This game was developed with the intention of studying and applying the React and SASS technology.
+This game was developed with the intention of studying and applying the React and SASS technologies.
 
 # How to play
 To play it just guess the Pokemon through the shadow. Each Pokemon will have its field to add the name through a keyboard that defines the correct and wrong letters. 
